@@ -3,7 +3,7 @@ require 'inline'
   class Robot
 
     inline(:C) do |builder|
-      builder.include '</home/rails/cplusplus/app/classes/CGIKcore.cpp>'
+      builder.include '</home/rails/cplusplusandrails/app/classes/CGIKcore.cpp>'
       builder.add_compile_flags '-x c++', '-lstdc++'
 
       builder.c "
